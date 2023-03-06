@@ -1,0 +1,4 @@
+strFrase = "A vida é bela"
+print('A frase: {}'.format(strFrase))
+invertida = ' '.join(palavra[::-1] for palavra in strFrase.split())
+print('\nA frase invertida fica: {}'.format(invertida))

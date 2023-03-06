@@ -1,0 +1,9 @@
+import json
+
+
+with open("dados.json", encoding='utf-8') as dados_json:
+    dados = json.load(dados_json)
+
+    for i in dados:
+        valores = [i['valor']]
+    print ((valores))
