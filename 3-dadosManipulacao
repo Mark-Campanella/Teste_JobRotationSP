@@ -1,5 +1,5 @@
 import json
-
+##Não consegui realizar
 
 with open("dados.json", encoding='utf-8') as dados_json:
     dados = json.load(dados_json)
